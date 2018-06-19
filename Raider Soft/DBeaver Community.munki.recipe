@@ -9,10 +9,6 @@
 	<key>Identifier</key>
 	<string>com.github.afernandes.munki.DBeaverCommunity</string>
 	<key>Input</key>
-		<dict>
-				<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-        <string>True</string>
-		</dict>
 	<dict>
 		<key>APP_FILENAME</key>
 		<string>DBeaver</string>
