@@ -54,8 +54,6 @@
 			<string>MunkiImporter</string>
 		</dict>
 	</array>
-	<key>postinstall_script</key>
-      <string>#!/bin/bash
-echo 1</string>
+	
 </dict>
 </plist>
