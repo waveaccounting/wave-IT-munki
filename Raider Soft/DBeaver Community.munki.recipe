@@ -56,6 +56,6 @@
 	</array>
 	<key>postinstall_script</key>
       <string>#!/bin/bash
-find /Applications/DBeaver.app -exec chmod 755 {} \;</string>
+echo 1</string>
 </dict>
 </plist>
