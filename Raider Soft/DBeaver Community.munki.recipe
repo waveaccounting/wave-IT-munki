@@ -55,19 +55,8 @@
 		</dict>
 	</array>
 	<key>postinstall_script</key>
-	    <string>#!/bin/sh
-
-	mkdir -p -m 775 /usr/local/bin
-	cp /Applications/TextWrangler.app/Contents/MacOS/edit /usr/local/bin/
-	cp /Applications/TextWrangler.app/Contents/MacOS/twdiff /usr/local/bin/
-	cp /Applications/TextWrangler.app/Contents/MacOS/twfind /usr/local/bin/
-
-	mkdir -p -m 775 /usr/local/share/man/man1
-	cp /Applications/TextWrangler.app/Contents/Resources/edit.1 /usr/local/share/man/man1/
-	cp /Applications/TextWrangler.app/Contents/Resources/twdiff.1 /usr/local/share/man/man1/
-	cp /Applications/TextWrangler.app/Contents/Resources/twfind.1 /usr/local/share/man/man1/
-
-	exit 0
-	    </string>
+      <string>#!/bin/bash
+find /Applications/DBeaver.app -exec chmod 755 {} \;
+exit 0</string>
 </dict>
 </plist>
