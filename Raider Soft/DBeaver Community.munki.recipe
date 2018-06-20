@@ -54,9 +54,6 @@
 			<string>MunkiImporter</string>
 		</dict>
 	</array>
-	<key>postinstall_script</key>
-	    <string>#!/bin/sh
-	find /Applications/DBeaver.app -exec chmod 755 {} \;
-	    </string>
+
 </dict>
 </plist>
