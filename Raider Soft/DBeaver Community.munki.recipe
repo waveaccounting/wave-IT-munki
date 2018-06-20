@@ -33,7 +33,7 @@
 			<key>unattended_install</key>
 			<true/>
 			<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-+			<string>True</string>
+			<string>True</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
