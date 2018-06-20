@@ -32,8 +32,6 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-			<string>True</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
